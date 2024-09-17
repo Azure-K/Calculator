@@ -2,3 +2,28 @@
     text-align: center;
     align-items: center;
 }
+.centeritens{
+    display: flex;
+    flex-direction: column;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+input{
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(41, 41, 41);
+}input:hover{
+    background-color: rgb(129, 129, 129);
+}input::placeholder{
+    color: white;
+}
+button{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(41, 41, 41);
+    color: rgb(180, 180, 180);
+}
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
